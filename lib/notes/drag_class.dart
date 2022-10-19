@@ -1,3 +1,5 @@
+//прописать Draggable<Widget>  как класс пример:
+
 import 'package:flutter/material.dart';
 
 class DragStatefulWidget extends StatefulWidget {

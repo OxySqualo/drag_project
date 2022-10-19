@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       // Remove the debug banner
       debugShowCheckedModeBanner: false,
-      title: 'Kindacode.com',
+      title: 'trying clothes',
       home: HomePage(),
     );
   }
@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("888"),
+        title: const Text("примерка одежды"),
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               Row(
                 children: [
-                  /// Draggable
+                  /// Draggable // в дальнейшем описать Draggable<Widget> как класс
                   Draggable<Widget>(
                     data: Image.asset(
                       "assets/images/boy_in.png",
